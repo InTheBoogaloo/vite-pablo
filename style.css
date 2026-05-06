@@ -1,0 +1,94 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Fondo general */
+body {
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor principal */
+#app {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Títulos */
+h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #4f46e5;
+  outline: none;
+}
+
+/* Botones */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #4f46e5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+/* Links */
+a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #4f46e5;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar del dashboard */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+nav a {
+  font-size: 14px;
+}
+
+/* Mensaje de bienvenida */
+h2 span {
+  color: #4f46e5;
+}
